@@ -15,7 +15,7 @@ const Styled = styled.div`
     height: 8px;
     border-radius: 4px;
     div {
-      background-color: ${(props) => props.theme.colors.primary};
+      background-color: #606060;
       width: ${(props) => `${props.progress || 0}%`};
     }
   }
