@@ -5,12 +5,11 @@
   "main": "index.js",
   "author": "D0Lim",
   "license": "MIT",
-  "homepage": "https://d0lim.github.io/oss-presentation",
   "devDependencies": {
     "mdx-deck": "^4.1.1"
   },
   "scripts": {
     "start": "mdx-deck deck.mdx",
-    "build": "mdx-deck build deck.mdx --basepath=\"/oss-presentation\""
+    "build": "mdx-deck build deck.mdx"
   }
 }
